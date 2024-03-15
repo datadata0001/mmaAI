@@ -170,7 +170,7 @@ from keras.layers import Dense
 
 classifier = Sequential()
 
-classifier.add(Dense(1024, kernel_initializer ='uniform', activation = 'tanh',input_dim = 30))
+classifier.add(Dense(1024, kernel_initializer ='uniform', activation = 'relu',input_dim = 30))
 
 classifier.add(Dense(1, kernel_initializer ='uniform', activation = 'linear'))
 
